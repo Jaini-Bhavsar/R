@@ -11,7 +11,7 @@ Title,  Authors,  Correspondence  Author, Publish Date, Abstract, Keywords, Full
 
 Journal Link: https://mobilednajournal.biomedcentral.com
 
-**2. Tabular Playground Series
+**2. Tabular Playground Series**
 
 This project is a part of a Kaggle Competition. I have participated in the April edition of the 2022 Tabular Playground Series. They have provided with thousands of sixty-second sequences of biological sensor data recorded from several hundred participants who could have been in either of two possible activity states. Our task is to determine what state a participant was in from the sensor data?
 
