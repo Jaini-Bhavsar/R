@@ -1,12 +1,30 @@
 # R
 Some of the very useful projects created using the R language.
 
-**1. Web Scraping Using R**
+## 1. Web Scraping Using R
 
-- In this project, I have build a specialized R program to crawl, parse and extract useful information from online websites. Here, I have taken Science Journal for this project. 
-- Given an input year, objective is to extract all articles published in/after that year from selected journal. Extracted the following 7 fields for each article: Title,  Authors,  Correspondence  Author, Publish Date, Abstract, Keywords, Full Paper (Text format).
-- Journal Link: https://mobilednajournal.biomedcentral.com
+## Objective:
+The primary goal of this project was to develop a specialized R program to extract and analyze article data from a selected journal. This hands-on experience aimed to enhance web scraping skills and prepare for real-world data extraction and analysis tasks. The project involved scraping specific article details, cleaning and preprocessing the data, performing basic data analysis, and creating visualizations to derive insights.
 
+## Tools and Techniques:
+Tools: R, RStudio
+Packages Used: rvest, httr, xml2, dplyr, ggplot2
+Techniques:
+Web scraping - Extracting structured data from web pages.
+Data cleaning - Removing irrelevant information, handling missing values, and formatting data.
+Data analysis - Basic exploratory data analysis to uncover patterns and trends.
+Data visualization - Creating simple charts to illustrate key findings.
+
+## Results and Insights:
+* Successfully extracted detailed article data from the selected journal, demonstrating effective web scraping techniques using R.
+* Cleaned and preprocessed the data to ensure accuracy and completeness for analysis.
+* Conducted data analysis, revealing key trends such as the most frequently appearing keywords in the articles.
+* Developed visualizations that effectively communicated the analysis results, highlighting important insights for stakeholders.
+* The project provided practical experience in handling real-world data extraction and analysis tasks, reinforcing data handling and visualization skills.
+
+## Business Relevance:
+* Automated Data Extraction: Demonstrated the ability to automate the extraction of structured data from websites, which can significantly reduce manual data collection efforts and improve efficiency.
+* Data-Driven Insights: Provided actionable insights from journal article data, which can aid in research trend analysis and strategic decision-making for organizations involved in academic publishing or related fields.
 
 **2. Tabular Playground Series**
 
