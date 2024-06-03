@@ -49,7 +49,29 @@ To analyze the association between Body Mass Index (BMI) and physical activity l
 * Companies in the health and fitness industry can utilize these insights to develop products, services, and marketing strategies that emphasize the importance of physical activity for weight management and overall health.
 * Health insurance companies might leverage these insights to design wellness programs that incentivize physical activity, potentially leading to lower healthcare costs associated with obesity-related conditions.
 
-## 3. Tabular Playground Series
+## 3. Predict Taxi Fares with Random Forests
+
+### Goal:
+Develop a predictive model using regression trees and random forests to estimate taxi fares and tips based on journey data from NYC. The aim is to identify locations and times when the highest fares can be earned, providing valuable insights for taxi drivers to maximize their earnings.
+
+### Skills Utilized:
+* Data Wrangling: Cleaned and prepared the dataset using dplyr, handling missing values and transforming variables for analysis.
+* Data Visualization: Utilized ggplot2 and ggmap for creating insightful visualizations, such as density maps of pickup locations.
+* Predictive Modeling: Applied regression trees and random forests (randomForest package) to build and evaluate predictive models.
+* Feature Engineering: Created new time-based variables (hour, weekday, month) using lubridate to improve model accuracy.
+* Statistical Analysis: Interpreted model performance metrics and visualized predictions to assess the models' effectiveness.
+
+### Results and Insights:
+* Geographical Insights: High fares and tips are concentrated in downtown Manhattan, particularly in business and tourist areas.
+* Temporal Patterns: Taxi trips during late hours and weekends tend to generate higher tips, highlighting the influence of time on earnings.
+* Model Limitations: Both models explained only a small percentage of the variance (around 3%), indicating potential for further improvement with additional data and fine-tuning.
+
+### Business Relevance:
+* Operational Optimization: Taxi and ridesharing companies can use these predictive models to optimize driver deployment, targeting high-demand areas and times for increased profitability.
+* Revenue Enhancement: Insights from the model can guide pricing strategies and promotional offers during peak times and locations to boost revenue.
+* Data-Driven Decision Making: Demonstrates the value of data analytics in traditional industries like taxi services, encouraging more data-driven approaches to enhance operational efficiency and customer satisfaction.
+
+## 4. Tabular Playground Series
 
 - This project is a part of a Kaggle Competition. I have participated in the April edition of the 2022 Tabular Playground Series. 
 - They have provided with thousands of sixty-second sequences of biological sensor data recorded from several hundred participants who could have been in either of two possible activity states. 
