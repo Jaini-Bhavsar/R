@@ -26,7 +26,30 @@ Data visualization - Creating simple charts to illustrate key findings.
 * Automated Data Extraction: Demonstrated the ability to automate the extraction of structured data from websites, which can significantly reduce manual data collection efforts and improve efficiency.
 * Data-Driven Insights: Provided actionable insights from journal article data, which can aid in research trend analysis and strategic decision-making for organizations involved in academic publishing or related fields.
 
-## 2. Tabular Playground Series
+## 2. Health Survey Data Analysis of BMI
+
+### Goal:
+To analyze the association between Body Mass Index (BMI) and physical activity levels using data from the National Health and Nutrition Examination Survey (NHANES). The goal is to identify key health behaviors associated with lower BMI and to quantify the impact of physical activity on BMI through a survey-weighted regression analysis.
+
+### Tools and Techniques:
+* R Programming
+* Data Wrangling
+* Statistical Analysis
+* Regression Analysis
+* R Packages: dplyr, ggplot2, glm, broom, survey
+  
+### Results and Insights:
+* The survey-weighted regression analysis demonstrated a significant negative association between physical activity levels and BMI. Individuals engaging in higher levels of physical activity tend to have lower BMI.
+* Adjusted for confounding factors such as age, gender, and socioeconomic status, the analysis reinforced that physical activity remains a strong predictor of lower BMI.
+* The visualization of the data showed clear trends indicating that increasing physical activity is beneficial in managing and reducing BMI.
+* The results suggest that promoting physical activity can be an effective strategy in public health efforts to combat obesity.
+
+### Business Relevance:
+* These findings can guide public health officials and policymakers in designing and implementing targeted interventions to increase physical activity levels within the population. Such interventions could be critical in addressing the obesity epidemic.
+* Companies in the health and fitness industry can utilize these insights to develop products, services, and marketing strategies that emphasize the importance of physical activity for weight management and overall health.
+* Health insurance companies might leverage these insights to design wellness programs that incentivize physical activity, potentially leading to lower healthcare costs associated with obesity-related conditions.
+
+## 3. Tabular Playground Series
 
 - This project is a part of a Kaggle Competition. I have participated in the April edition of the 2022 Tabular Playground Series. 
 - They have provided with thousands of sixty-second sequences of biological sensor data recorded from several hundred participants who could have been in either of two possible activity states. 
